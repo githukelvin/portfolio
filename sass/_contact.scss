@@ -1,0 +1,36 @@
+.contact{
+    height: 100%;
+    width: 100%;
+    padding-top: 40vh;
+    display: flex;
+    flex-direction: column;
+    background:
+     linear-gradient(
+        to right, rgba($primary-color,0.9),
+        rgba($primary-color,0.9)),
+
+        url('../img/model-1.jpg') center top;
+
+        //  this  code above is a partial  i didnt knew that i can
+        //add linear-gradient propertieis on an image
+    background-size: cover;
+
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+
+}
+&_list{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    font-size: 1.5rem; 
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 2rem;
+}
+}
